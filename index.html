@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="header">
+        Etch-A-Sketch
+    </div>
+
+    <div class="container">
+
+        <div class="selectors">
+            <div class="size">
+                <div class=text">Size Selection: </div>
+                <input type="range" min="1" max="100" value="16" class="slider" id="rangeSlider">
+                <output>16x16</output>
+            </div>
+
+            <div class="colors">
+                <div class="default">
+                    Default
+                </div>
+
+                <div class="rainbow">
+                    Rainbow
+                </div>
+
+                <div class="choose">
+                    Choose Your Own:
+                </div>
+            </div>
+
+            <div class="eraser">
+                <button>Clear board</button>
+            </div>
+        </div>
+
+        <div class="gridContainer">
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright &copy; Krash
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
