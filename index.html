@@ -13,6 +13,7 @@
 <body>
     <div class="header">
         Etch-A-Sketch
+        <p>Click on board to start drawing!</p>
     </div>
 
     <div class="container">
@@ -25,16 +26,22 @@
             </div>
 
             <div class="colors">
-                <div class="default">
-                    Default
+                <div class="text">
+                    Color Selection: 
                 </div>
+                <div class="color-container">
+                    <button class="default">
+                        Default
+                    </button>
 
-                <div class="rainbow">
-                    Rainbow
-                </div>
+                    <button class="rainbow">
+                        Rainbow
+                    </button>
 
-                <div class="choose">
-                    Choose Your Own:
+                    <div class="choose">
+                        Choose Your Own:
+                        <input type="color" id="colorpicker" value="#0000ff">
+                    </div>
                 </div>
             </div>
 

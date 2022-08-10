@@ -22,18 +22,37 @@ body {
     display: flex;
     justify-content: center;
     gap: 10rem;
+    font-size: 24px;
 }
 
 .selectors {
-    display: grid;
+    display: flex;
     flex-direction: column;
-    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .size {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.colors {
+    text-align: center;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.choose {
+    font-size: 16px;
 }
 
 .gridContainer {
@@ -50,4 +69,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #5e5e5e;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    width: 10rem;
+    height: 2rem;
+    font-family: inherit;
+}
+
+button:hover {
+    background-color: #5e5e5e;
+    color: white;
+}
+
+output {
+    font-size: 16px;
+}
+
+input {
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    color: #5e5e5e;
+    margin: 0;
+    padding: 0;
 }
